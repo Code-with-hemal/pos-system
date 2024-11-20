@@ -13,7 +13,7 @@ public class DBConnection {
         conn= DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/pos_v1",
                 "root",
-                "1234"
+                ""
         );
     }
     public static DBConnection getInstance() throws SQLException, ClassNotFoundException {
